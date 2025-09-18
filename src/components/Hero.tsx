@@ -1,6 +1,7 @@
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import headshotImage from "@/assets/developer-headshot.jpg";
+import BackgroundElements from "@/components/BackgroundElements";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -11,19 +12,21 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center section-gradient">
-      <div className="container mx-auto px-6 py-20">
+    <section id="hero" className="min-h-screen flex items-center justify-center section-gradient relative overflow-hidden">
+      <BackgroundElements />
+      
+      <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <div className="animate-fade-in-up">
             <div className="mb-8">
               <img
                 src={headshotImage}
                 alt="Professional headshot"
-                className="w-32 h-32 rounded-full mx-auto mb-6 object-cover ring-4 ring-primary/30 animate-scale-in"
+                className="w-32 h-32 rounded-full mx-auto mb-6 object-cover ring-4 ring-primary/30 animate-scale-in shadow-2xl"
               />
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 hero-text">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 hero-text hero-glow">
               Alex Thompson
             </h1>
             
@@ -35,7 +38,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 onClick={() => scrollToSection("projects")}
-                className="btn-primary text-lg px-8 py-3"
+                className="btn-primary text-lg px-8 py-3 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
               >
                 View My Work
               </Button>
@@ -43,7 +46,7 @@ const Hero = () => {
                 variant="outline"
                 size="lg"
                 onClick={() => scrollToSection("contact")}
-                className="btn-secondary text-lg px-8 py-3"
+                className="btn-secondary text-lg px-8 py-3 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
               >
                 Get In Touch
               </Button>
@@ -53,7 +56,7 @@ const Hero = () => {
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
             <button
               onClick={() => scrollToSection("about")}
-              className="text-primary hover:text-primary-glow transition-colors duration-300"
+              className="text-primary hover:text-primary-glow transition-colors duration-300 drop-shadow-lg"
               aria-label="Scroll to About section"
             >
               <ArrowDown size={32} />
