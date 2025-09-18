@@ -11,12 +11,12 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-background">
+  <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 hero-text">
-              About Me
+              About Bassey Emmanuel
             </h2>
             <div className="w-20 h-1 bg-primary mx-auto"></div>
           </div>
@@ -24,22 +24,13 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                My journey into front-end development began with a fascination for creating beautiful, 
-                interactive user experiences. What started as curiosity about how websites work evolved 
-                into a passion for crafting pixel-perfect interfaces that users love to interact with.
+                A Young elegant front end developer passionate about crafting beautiful and interactive user experiences. I specialize in modern web technologies and love building pixel-perfect interfaces.
               </p>
-              
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I specialize in modern web technologies including HTML5, CSS3, JavaScript, and React. 
-                My expertise extends to responsive design, performance optimization, and creating 
-                accessible web applications. I believe in writing clean, maintainable code and 
-                staying current with the latest industry trends and best practices.
+                My expertise includes HTML5, CSS3, JavaScript, React, TypeScript, and Tailwind CSS. I focus on responsive design, performance, and accessibility, always striving to deliver delightful web experiences.
               </p>
-
               <p className="text-lg text-muted-foreground leading-relaxed">
-                When I'm not coding, you'll find me exploring new design trends, contributing to 
-                open-source projects, or sharing knowledge with the developer community. I'm passionate 
-                about creating web experiences that are not just functional, but delightful to use.
+                Feel free to connect with me for collaborations or just to say hi!
               </p>
             </div>
 

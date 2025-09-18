@@ -35,25 +35,19 @@ const Contact = () => {
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com",
+      url: "https://github.com/bosspetite",
       color: "hover:text-gray-400"
-    },
-    {
-      name: "LinkedIn",
-      icon: Linkedin,
-      url: "https://linkedin.com",
-      color: "hover:text-blue-400"
     },
     {
       name: "Twitter",
       icon: Twitter,
-      url: "https://twitter.com",
+      url: "https://twitter.com/basseyobeys15213",
       color: "hover:text-blue-300"
     },
     {
       name: "Email",
       icon: Mail,
-      url: "mailto:alex@example.com",
+      url: "mailto:basseyobeys@gmail.com",
       color: "hover:text-red-400"
     }
   ];
@@ -131,27 +125,16 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-medium">Email</h4>
-                      <p className="text-muted-foreground">alex@example.com</p>
+                      <p className="text-muted-foreground">basseyobeys@gmail.com</p>
                     </div>
                   </div>
-                  
                   <div className="flex items-center">
                     <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mr-4">
                       <Phone className="text-primary" size={20} />
                     </div>
                     <div>
-                      <h4 className="font-medium">Phone</h4>
-                      <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center">
-                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mr-4">
-                      <MapPin className="text-primary" size={20} />
-                    </div>
-                    <div>
-                      <h4 className="font-medium">Location</h4>
-                      <p className="text-muted-foreground">San Francisco, CA</p>
+                      <h4 className="font-medium">WhatsApp</h4>
+                      <p className="text-muted-foreground">08112075017</p>
                     </div>
                   </div>
                 </div>

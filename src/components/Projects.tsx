@@ -8,30 +8,30 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Product Page",
-      description: "A fully responsive e-commerce product page built with modern CSS and JavaScript to handle user interactions.",
-      image: ecommerceImage,
-      liveUrl: "#",
-      codeUrl: "#",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Stripe API"]
+      title: "Portfolio Website",
+      description: "A personal portfolio website to showcase my skills, projects, and contact information. Built with React and Tailwind CSS.",
+      image: dashboardImage,
+      liveUrl: "https://bosspetite.github.io/portfolio/",
+      codeUrl: "https://github.com/bosspetite/portfolio",
+      technologies: ["React", "TypeScript", "Tailwind CSS"]
     },
     {
       id: 2,
-      title: "Interactive Dashboard",
-      description: "A data visualization dashboard displaying real-time information with interactive charts and a user-friendly interface.",
+      title: "Portfolio Website",
+      description: "A personal portfolio website to showcase my skills, projects, and contact information. Built with React and Tailwind CSS.",
       image: dashboardImage,
-      liveUrl: "#",
-      codeUrl: "#",
-      technologies: ["React", "D3.js", "Node.js", "MongoDB"]
+      liveUrl: "https://bosspetite.github.io/portfolio/",
+      codeUrl: "https://github.com/bosspetite/portfolio",
+      technologies: ["React", "TypeScript", "Tailwind CSS"]
     },
     {
       id: 3,
-      title: "Weather App",
-      description: "A single-page application that fetches and displays weather data from a third-party API based on the user's location.",
-      image: weatherImage,
-      liveUrl: "#",
-      codeUrl: "#",
-      technologies: ["JavaScript", "CSS3", "Weather API", "Geolocation"]
+      title: "Portfolio Website",
+      description: "A personal portfolio website to showcase my skills, projects, and contact information. Built with React and Tailwind CSS.",
+      image: dashboardImage,
+      liveUrl: "https://bosspetite.github.io/portfolio/",
+      codeUrl: "https://github.com/bosspetite/portfolio",
+      technologies: ["React", "TypeScript", "Tailwind CSS"]
     }
   ];
 
@@ -116,7 +116,7 @@ const Projects = () => {
               variant="outline"
               size="lg"
               className="btn-secondary"
-              onClick={() => window.open("#", '_blank')}
+              onClick={() => window.open("https://github.com/bosspetite", '_blank')}
             >
               <Github size={20} className="mr-2" />
               View All Projects on GitHub

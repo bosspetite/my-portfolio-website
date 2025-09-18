@@ -34,7 +34,7 @@ const Header = () => {
             className="text-2xl font-bold hero-text cursor-pointer"
             onClick={() => scrollToSection("hero")}
           >
-            Portfolio
+            Bassey Emmanuel
           </div>
 
           {/* Desktop Navigation */}
